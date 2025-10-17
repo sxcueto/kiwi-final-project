@@ -22,7 +22,6 @@ function JournalEntry({ addEntry }) {
         onChange={(e) => setEntryName(e.target.value)}
         placeholder="Enter item name"
       />
-
       <button type="submit">Add Item</button>
     </form>
   );
