@@ -1,11 +1,10 @@
 import { NavLink } from "react-router";
 import styles from "./Header.module.css";
-
+import DarkMode from "./DarkMode";
 const Header = ({ title }) => {
   return (
     <header>
-    <button id="theme-switch"></button>
-    {/* add svg files for light and dark mode toggle */}
+    <DarkMode />
       <h1 className={styles.title}>{title}</h1>
       <nav>
         <NavLink

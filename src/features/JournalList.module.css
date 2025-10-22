@@ -1,0 +1,47 @@
+.entries {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.entry {
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  display: block;
+  font-size: 1.2em;
+}
+
+.date {
+  display: block;
+  font-size: 0.9em;
+  color: #555;
+  font-style: italic;
+}
+
+.entry p {
+  margin: 10px 0 0;
+  line-height: 1.5em;
+}
+
+
+.button{
+  border: none;
+  background-color:#7C7294 ;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+   border-radius: 4px;
+   padding: 5px;
+   margin: 2px;
+}
+.button:hover {
+  background-color: #B2A4D1;
+}

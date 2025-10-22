@@ -2,7 +2,7 @@ import "./App.css";
 import { useEffect} from "react";
 import { Route, Routes, useLocation} from "react-router";
 
-import Header from "./shared/header";
+import Header from "./shared/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
@@ -33,8 +33,7 @@ function App() {
               }
       
       />
-      {/* journal entry will go here */}
-      {/* journal list will go here */}
+     
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

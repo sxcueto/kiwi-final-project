@@ -6,10 +6,6 @@
   --base-color: white;
   --base-variant: #e8e9ed;
   --text-color: #111528;
-  --secondary-text: #232738;
-  --primary-color: #3a435d;
-  --accent-color: #0071ff;
-
 }
 
 html {
@@ -19,9 +15,54 @@ html {
 body {
   min-height: 100vh;
   background-color: var(--base-color);
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
+.darkmode {
+  --base-color: #070b1d;
+  --base-variant: #101425;
+  --text-color: #ffffff;
+  --secondary-text: #a4a5b8;
+  --primary-color: #3a435d;
+  --active-color: #ffd700;
+  --inactive-color: #aaaaaa;
+}
+body.darkmode {
+  background-color: var(--base-color);
+  color: var(--text-color);
+}
+.darkmode .about p {
+  color: white; 
+}
 
+span, h3 {
+  color: var(--text-color);
+}
 
+nav a {
+  color: var(--text-color); 
+}
 
+.darkmode nav a {
+  color: #ffffff;
+}
+.darkmode .active {
+  color: var(--text-color);
+}
+
+.darkmode .inactive {
+  color: var(--inactive-color);
+}
+.active {
+  color: var(--active-color);
+}
+
+.inactive {
+  color: var(--inactive-color);
+}
+
+p,
+label,
+input {
+  font-family: Arial, Helvetica, sans-serif;
+}
